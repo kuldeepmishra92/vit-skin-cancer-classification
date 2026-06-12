@@ -1,0 +1,149 @@
+# ============================================================
+# Tech Stack Documentation (internal reference only)
+# ============================================================
+TECH_STACK.md
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# ============================================================
+# Jupyter Notebook checkpoints
+# ============================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ============================================================
+# HuggingFace model checkpoints & saved models
+# (Large binary files — push to HF Hub instead)
+# ============================================================
+vit-large-ham10000/
+vit-large-ham10000-final/
+*/checkpoint-*/
+results/
+outputs/
+runs/
+
+# ============================================================
+# HuggingFace Datasets cache
+# ============================================================
+~/.cache/huggingface/
+.cache/
+*.arrow
+*.parquet
+
+# ============================================================
+# PyTorch model weights & checkpoints
+# ============================================================
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+
+# ============================================================
+# Training logs and experiment tracking
+# ============================================================
+wandb/
+mlruns/
+logs/
+*.log
+trainer_state.json
+
+# ============================================================
+# Dataset files (large — use HF Hub or Kaggle API)
+# ============================================================
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.gz
+data/
+datasets/
+images/
+sample_images.png
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+kaggle.json
+huggingface_token.txt
+token.txt
+
+# ============================================================
+# IDE and editor files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# OS-specific files
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================================
+# Google Colab / Drive artifacts
+# ============================================================
+drive/
+/content/
+sample_data/
+
+# ============================================================
+# Temporary files
+# ============================================================
+*.tmp
+*.bak
+*.orig
+tmp/
+temp/
