@@ -31,3 +31,7 @@ Fine-tuned **google/vit-large-patch16-224** on the HAM10000 dataset (10,000+ der
 Non-skin images are automatically rejected by a CLIP-based validation gate — the model only classifies dermoscopy/skin lesion images.
 
 > ⚠️ This is a portfolio/learning project — not a medical diagnostic tool.
+
+## Author
+- **Kuldeep Kumar Mishra**
+
